@@ -88,6 +88,7 @@ module.exports = {
         'indent': ['error', 4],
         'key-spacing': 'error',
         'keyword-spacing': 'error',
+        'line-comment-position': 'off',
         'linebreak-style': ['error', 'unix'],
         'lines-around-comment': 'off',
         'max-depth': ['error', 4],
@@ -166,6 +167,10 @@ module.exports = {
         'jsdoc/require-returns-description': 2,
         'jsdoc/require-returns-type': 2,
         'jsdoc/valid-types': 2,
-        'valid-jsdoc': 'error'
+        'valid-jsdoc': 'error',
+
+        // Aura plugin is checking browser compatibility, but we don't need this
+        // https://github.com/amilajack/eslint-plugin-compat
+        'compat/compat': 'off'
     }
 };
