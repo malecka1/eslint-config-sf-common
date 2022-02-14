@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sf-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "private": false,
   "author": {
@@ -19,10 +19,10 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "@salesforce/eslint-config-lwc": "^0.7.0",
+    "@salesforce/eslint-config-lwc": "^0.8.0",
     "@salesforce/eslint-plugin-aura": "^1.4.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-jsdoc": "^30.7.9",
     "typescript": "^4.1.3"
   }
 }
