@@ -14,6 +14,13 @@
     "lwc",
     "salesforce"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malecka1/eslint-config-sf-common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malecka1/eslint-config-sf-common/issues"
+  },
   "main": "index.js",
   "engines": {
     "node": ">= 12.22.6"
