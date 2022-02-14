@@ -1,5 +1,8 @@
-# IntelliJ Idea
+# Node.js packages
+node_modules/
+
+# IDEs
 .idea/
 *.iml
-
-node_modules/
+.vscode/
+.history/
